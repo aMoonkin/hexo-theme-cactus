@@ -136,6 +136,36 @@ open_graph:
 # Plugins
 ##############################################################################
 
+# Enable MathJax support for Latex
+mathjax:
+  enabled: false
+  
+# Fill in your Disqus Comments Shortname to enable Disqus comments.
+disqus:
+  enabled: false
+  shortname: 1
+
+# Fill in your Google Analytics tracking ID to enable Google Analytics.
+google_analytics:
+  enabled: false
+  id: 1
+
+# Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
+baidu_analytics:
+  enabled: false
+  id: 1
+
+# Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
+cloudflare_analytics:
+  enabled: false
+  id: 1
+
+# Fill in your Umami Analytics tracking ID to enable Umami Analytics.
+umami_analytics:
+  enabled: false
+  id: 1
+  host: https://analytics.domain.com
+
 # Fill in you Gravatar email or hash if you want to use your gravatar as the
 # logo and/or favicons of you website.
 # To generate hash: `$ echo -n "name@email.com" | md5`.
